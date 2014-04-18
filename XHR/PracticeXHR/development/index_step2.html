@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <meta http-equiv="Expires" content="Thu, 01 Dec 1994 16:00:00 GMT">
+  </head>
+  <body>
+    <p>
+      <select id="bloodTypeBox">
+        <option value="default">選択してください</option>
+        <option value="A">A</option>
+        <option value="B">B</option>
+        <option value="O">O</option>
+        <option value="AB">AB</option>
+      </select>
+      型の今日の運勢は！？
+    </p>
+    <p id="resultArea">ここに結果が入ります</p>
+    <script src="../closure/library/closure/goog/base.js"></script><!--@base_js@-->
+    <script src="js_dev/deps.js"></script><!--@deps_js@-->
+    <script> goog.require('googkit_index_step2'); </script><!--@require_main@-->
+  </body>
+</html>
